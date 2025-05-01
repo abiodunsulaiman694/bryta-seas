@@ -9,26 +9,25 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold">Bryta Seas</h3>
             <p className="mt-2 text-sm text-gray-600">
-              Helping maritime players meet environmental standards, build ESG strategies, and improve their digital
-              reputation.
+              Shaping the future of sustainable shipping.
             </p>
           </div>
           <div>
             <h3 className="text-lg font-bold">Quick Links</h3>
             <ul className="mt-2 space-y-2">
               <li>
-                <Link href="/privacy-policy" className="text-sm text-gray-600 hover:text-teal-700">
-                  Privacy Policy
+                <Link href="/services" className="text-sm text-gray-600 hover:text-teal-700">
+                  Services
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-sm text-gray-600 hover:text-teal-700">
-                  Terms of Service
+                <Link href="/insights" className="text-sm text-gray-600 hover:text-teal-700">
+                  Insights
                 </Link>
               </li>
               <li>
-                <Link href="https://linkedin.com" target="_blank" className="text-sm text-gray-600 hover:text-teal-700">
-                  LinkedIn
+                <Link href="/about" className="text-sm text-gray-600 hover:text-teal-700">
+                  About
                 </Link>
               </li>
             </ul>
@@ -42,8 +41,8 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href="tel:+11234567890" className="hover:text-teal-700">
-                  +1 (123) 456-7890
+                <a href="tel:+18722749553" className="hover:text-teal-700">
+                  +1 (872) 274-9553
                 </a>
               </p>
             </address>

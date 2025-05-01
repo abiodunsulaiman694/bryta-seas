@@ -48,7 +48,7 @@ export default function AboutPage() {
             </div>
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/assets/brytaseas-ship.png"
                 alt="Bryta Seas mission and vision"
                 width={600}
                 height={500}
@@ -119,7 +119,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 items-center">
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/assets/brytaseas-clean-energy.png"
                 alt="Bryta Seas story"
                 width={600}
                 height={500}
