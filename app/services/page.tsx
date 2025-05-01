@@ -109,10 +109,10 @@ export default function ServicesPage() {
             </div>
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600"
-                alt="Maritime sustainability consulting"
-                width={600}
-                height={500}
+                src="/assets/why-brytaseas.png"
+                alt="Why Bryta Seas"
+                width={400}
+                height={600}
                 className="rounded-lg"
               />
             </div>

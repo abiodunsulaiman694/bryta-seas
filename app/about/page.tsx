@@ -2,7 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { CheckSquare } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { team } from "@/lib/data"
 
 export const metadata = {
   title: "About Us - Bryta Seas",
@@ -110,31 +109,6 @@ export default function AboutPage() {
                 We believe in protecting the oceans, people, and future generations.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Our Team */}
-      <section className="py-16 md:py-24" style={{display: "none"}}>
-        <div className="container">
-          <h2 className="text-3xl font-bold mb-12 text-center">Our Team</h2>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {team.map((member) => (
-              <div key={member.id} className="text-center">
-                <div className="mx-auto mb-4 h-40 w-40 overflow-hidden rounded-full">
-                  <Image
-                    src={member.image || "/placeholder.svg"}
-                    alt={member.name}
-                    width={160}
-                    height={160}
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-bold">{member.name}</h3>
-                <p className="text-teal-700 mb-3">{member.role}</p>
-                <p className="text-gray-600">{member.bio}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
