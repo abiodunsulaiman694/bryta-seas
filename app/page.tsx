@@ -113,7 +113,9 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold">{insight.title}</h3>
+                  <Link href={`/insights/${insight.slug}`}>
+                    <h3 className="text-xl font-bold hover:text-teal-700 transition-colors">{insight.title}</h3>
+                  </Link>
                   <p className="mt-2 text-gray-600">{insight.excerpt}</p>
                   <Link
                     href={`/insights/${insight.slug}`}

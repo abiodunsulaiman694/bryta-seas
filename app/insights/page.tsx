@@ -52,7 +52,9 @@ export default function InsightsPage() {
                       })}
                     </span>
                   </div>
-                  <h2 className="text-xl font-bold">{insight.title}</h2>
+                  <Link href={`/insights/${insight.slug}`}>
+                    <h2 className="text-xl font-bold hover:text-teal-700 transition-colors">{insight.title}</h2>
+                  </Link>
                   <p className="mt-2 text-gray-600">{insight.excerpt}</p>
                   <div className="mt-4 flex items-center justify-between">
                     <Link

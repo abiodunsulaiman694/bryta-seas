@@ -91,7 +91,7 @@ export default function InsightPage({ params }: { params: { slug: string } }) {
       <section className="pb-16 md:pb-24">
         <div className="container">
           <div className="mx-auto max-w-3xl prose prose-lg">
-            <div dangerouslySetInnerHTML={{ __html: insight.content }}></div>
+            <div dangerouslySetInnerHTML={{ __html: insight.content }} className="space-y-8"></div>
           </div>
         </div>
       </section>
@@ -116,7 +116,9 @@ export default function InsightPage({ params }: { params: { slug: string } }) {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold">{relatedInsight.title}</h3>
+                  <Link href={`/insights/${relatedInsight.slug}`}>
+                    <h3 className="text-xl font-bold hover:text-teal-700 transition-colors">{relatedInsight.title}</h3>
+                  </Link>
                   <p className="mt-2 text-gray-600">{relatedInsight.excerpt}</p>
                   <Link
                     href={`/insights/${relatedInsight.slug}`}

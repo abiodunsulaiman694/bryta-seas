@@ -361,142 +361,129 @@ export type Insight = {
 export const insights: Insight[] = [
   {
     id: "1",
-    title: "Navigating Green Compliance in The Maritime Industry",
-    slug: "navigating-green-compliance",
-    category: "Compliance",
+    title: "A Green Revolution on the Horizon: Why Shipping Must Do More Than Meet the IMO's Net-Zero Goals",
+    slug: "green-revolution-shipping-imo-goals",
+    category: "Sustainability",
     date: "2025-04-15",
-    author: "Emma Johnson",
-    excerpt: "Learn about the latest regulations and how to ensure your fleet stays compliant.",
+    author: "Rita Abiodun",
+    excerpt: "Exploring why the maritime industry needs to exceed IMO's net-zero targets and lead global sustainability efforts.",
     content: `
-      <h2>Understanding the Evolving Regulatory Landscape</h2>
-      <p>The maritime industry is facing unprecedented regulatory pressure to reduce its environmental impact. From the IMO's ambitious goals to reduce greenhouse gas emissions by at least 50% by 2050 compared to 2008 levels, to regional regulations like the EU's inclusion of shipping in its Emissions Trading System, shipowners and operators must navigate an increasingly complex compliance landscape.</p>
-      
-      <h2>Key Regulations Affecting Maritime Operations</h2>
-      <p>Several key regulations are reshaping maritime operations:</p>
-      <ul>
-        <li><strong>IMO 2020 Sulfur Cap:</strong> Limiting the sulfur content in marine fuels to 0.5%.</li>
-        <li><strong>Ballast Water Management Convention:</strong> Requiring ships to manage their ballast water to remove, render harmless, or avoid the uptake of organisms and pathogens.</li>
-        <li><strong>Energy Efficiency Design Index (EEDI):</strong> Mandating minimum energy efficiency levels for new ships.</li>
-        <li><strong>Carbon Intensity Indicator (CII):</strong> Rating ships based on their operational carbon intensity.</li>
-        <li><strong>EU Emissions Trading System (ETS):</strong> Including maritime transport in the EU's carbon market from 2024.</li>
-      </ul>
-      
-      <h2>Strategies for Ensuring Compliance</h2>
-      <p>To navigate this complex regulatory environment, maritime companies should consider the following strategies:</p>
-      <ol>
-        <li><strong>Develop a Compliance Roadmap:</strong> Create a comprehensive plan that addresses current and upcoming regulations.</li>
-        <li><strong>Invest in Technology:</strong> Implement systems for monitoring, reporting, and verifying emissions and other environmental impacts.</li>
-        <li><strong>Train Your Crew:</strong> Ensure all personnel understand compliance requirements and their role in meeting them.</li>
-        <li><strong>Regular Audits:</strong> Conduct thorough internal audits to identify and address compliance gaps before they become issues.</li>
-        <li><strong>Stay Informed:</strong> Maintain awareness of regulatory developments and industry best practices.</li>
-      </ol>
-      
-      <h2>The Business Case for Proactive Compliance</h2>
-      <p>While achieving and maintaining compliance requires investment, the business case is compelling:</p>
-      <ul>
-        <li>Avoiding costly penalties and operational disruptions</li>
-        <li>Gaining competitive advantage through early adoption</li>
-        <li>Improving operational efficiency and reducing fuel costs</li>
-        <li>Enhancing reputation with customers, investors, and other stakeholders</li>
-        <li>Preparing for a future where environmental performance is increasingly tied to market access</li>
-      </ul>
-      
-      <h2>Conclusion</h2>
-      <p>Green compliance is no longer optional in the maritime industry—it's a fundamental aspect of business operations. By taking a proactive, strategic approach to compliance, maritime companies can not only avoid penalties but also position themselves for success in an increasingly environmentally conscious market.</p>
+      <p>Imagine a world where shipping doesn't just comply with international regulations but leads the charge in global sustainability efforts. A world where the industry that moves 80% of the world's trade does so in a way that protects our oceans, our climate, and our communities. That world isn't just a dream—it's a possibility, and the IMO's 2023 GHG Strategy is a roadmap for getting there.</p>
+
+      <p>But here's the question: Is doing the bare minimum really enough?</p>
+
+      <p>As the IMO sets ambitious targets—aiming for net-zero emissions by 2050, with key milestones like a 30% reduction by 2030 and 80% by 2040—shipping companies across the globe are being asked to meet these goals. It's a big step forward for an industry often criticized for its environmental footprint. However, while these targets are crucial, we should be asking ourselves: Can we do more?</p>
+
+      <p>The IMO's strategy is setting the stage for a greener future, but there's room for the maritime industry to go beyond just meeting international regulations. Think about it: What if every shipowner, every maritime innovator, every leader in the industry decided to aim for more than just meeting the IMO's net-zero goals? What if they went above and beyond, driving true transformation for the betterment of the planet and future generations?</p>
+
+      <p>The IMO's framework is undeniably a step in the right direction. It's setting up ambitious targets for carbon intensity reduction and for the adoption of alternative, near-zero GHG fuels. By 2030, it expects at least 5% of international shipping's energy to come from such sustainable sources. But why stop at 5%? What if the industry aimed for 20% or more, making a bigger impact than the regulations require?</p>
+
+      <p>"We have the tools, we have the knowledge, and we certainly have the innovation," says a leading maritime expert. "The question is, will we rise to the occasion and truly lead the way?"</p>
+
+      <p>This isn't just about meeting compliance standards—it's about redefining what it means to be a sustainable leader in a changing world. The IMO's strategy is just the starting point. The real challenge for the maritime industry is to push beyond the baseline, to create a shipping sector that is not just carbon-neutral, but actively carbon-positive—one that contributes to the planet's recovery, not just its survival.</p>
+
+      <p>The IMO's work with small island nations and least developed countries (LDCs) proves that sustainability is a shared responsibility. These nations are bearing the brunt of climate change's effects, yet they are often the ones with the least capacity to address it. Through programs that provide funding and support, the IMO is leveling the playing field. But this also highlights something important: If the maritime industry truly values its role in the global economy, it has to take on more responsibility, not less.</p>
+
+      <p>By investing in alternative fuels, carbon capture technologies, and energy efficiency measures—by going beyond compliance—we could turn the shipping industry into a global leader in carbon reduction, a model for other sectors to follow.</p>
+
+      <p>"Meeting the IMO's goals is a start, but let's not forget that the planet needs us to do more," says a passionate advocate for maritime sustainability. "This is our chance to make a lasting difference, not just in reducing emissions, but in the way we think about responsibility."</p>
+
+      <p>The IMO's strategy is a framework for change, but it's not the endgame. It's the invitation to the maritime sector to step up and be the change we all need. From embracing new fuels like ammonia and hydrogen to investing in cutting-edge technologies like onboard carbon capture, the maritime industry has the opportunity to become the trailblazer in the fight against climate change.</p>
+
+      <p>The truth is, the IMO can't do it alone. They've set the stage, but now it's up to all of us to play our part. So, I challenge you: Let's not wait for the bare minimum. Let's go above and beyond the IMO's targets for the greater good of humankind and the health of our planet.</p>
+
+      <p>As one industry leader put it, "The question is no longer if we can do this—it's how quickly we can get there, and how much further we can go."</p>
+
+      <p>And I believe we can go far.</p>
     `,
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/assets/insight-green-revolution-brytaseas.png",
   },
   {
     id: "2",
-    title: "Building a Strong Maritime ESG Reputation",
-    slug: "building-strong-esg-reputation",
-    category: "ESG",
+    title: "Ebiere's Fight: Reclaiming the Future of the Niger Delta",
+    slug: "ebieres-fight-niger-delta",
+    category: "Environmental Justice",
     date: "2025-03-28",
-    author: "Michael Chen",
-    excerpt: "Strategies to enhance your company's environmental, social, and governance profile.",
+    author: "Rita Abiodun",
+    excerpt: "A powerful story of one woman's fight against environmental degradation in the Niger Delta, highlighting the human cost of irresponsible shipping practices.",
     content: `
-      <h2>The Growing Importance of ESG in Maritime</h2>
-      <p>Environmental, Social, and Governance (ESG) considerations have moved from the periphery to the center of maritime business strategy. Investors, customers, regulators, and the public increasingly expect shipping companies to demonstrate strong ESG performance. This shift represents both a challenge and an opportunity for maritime businesses.</p>
-      
-      <h2>Key Components of a Strong Maritime ESG Profile</h2>
-      <p>A robust ESG profile in the maritime sector encompasses:</p>
-      <ul>
-        <li><strong>Environmental:</strong> Emissions reduction, energy efficiency, waste management, biodiversity protection, and climate risk mitigation.</li>
-        <li><strong>Social:</strong> Crew welfare, diversity and inclusion, community relations, human rights in the supply chain, and health and safety.</li>
-        <li><strong>Governance:</strong> Ethical business practices, transparency, board diversity and independence, risk management, and regulatory compliance.</li>
-      </ul>
-      
-      <h2>Building Your Maritime ESG Reputation</h2>
-      <p>Developing a strong ESG reputation requires a strategic approach:</p>
-      <ol>
-        <li><strong>Assess Your Current Position:</strong> Conduct a thorough assessment of your existing ESG performance and reputation.</li>
-        <li><strong>Set Clear Goals:</strong> Establish specific, measurable, achievable, relevant, and time-bound (SMART) ESG objectives.</li>
-        <li><strong>Integrate ESG into Business Strategy:</strong> Ensure ESG considerations are embedded in strategic decision-making at all levels.</li>
-        <li><strong>Measure and Report:</strong> Implement robust systems for measuring ESG performance and report transparently using recognized frameworks.</li>
-        <li><strong>Communicate Effectively:</strong> Develop a clear communication strategy to share your ESG journey with stakeholders.</li>
-      </ol>
-      
-      <h2>The Business Benefits of a Strong ESG Reputation</h2>
-      <p>Investing in your ESG reputation delivers tangible business benefits:</p>
-      <ul>
-        <li>Improved access to capital and favorable financing terms</li>
-        <li>Enhanced ability to attract and retain top talent</li>
-        <li>Stronger relationships with customers who prioritize sustainability</li>
-        <li>Reduced regulatory and reputational risks</li>
-        <li>Long-term business resilience in a changing market</li>
-      </ul>
-      
-      <h2>Conclusion</h2>
-      <p>In today's maritime industry, a strong ESG reputation is not just about doing good—it's about doing good business. By taking a strategic approach to building and communicating your ESG performance, you can create lasting value for your company and contribute to a more sustainable maritime sector.</p>
+      <p>Ebiere Okwu, a 52-year-old mother and grandmother, has spent her life along the waters of the Niger Delta. For decades, the river was the heart of her livelihood—its waters teeming with fish, and its fertile soil nurturing crops. But today, the river she once depended on is poisoned by oil spills, and her community is fighting to survive the destruction caused by irresponsible shipping activities.</p>
+
+      <p>Ebiere's story is shared by many in her community. The Niger Delta, once a source of abundant food and income, has suffered years of environmental degradation, largely driven by oil spills and waste from ships passing through the region. For Ebiere, the decline of local fisheries wasn't just a loss of income—it was an assault on her way of life.</p>
+
+      <p>"I used to wake up at dawn, and the river would be alive," she recalls, her voice soft but steady. "The sound of the water, the fish jumping… it was everything. It was how we lived."</p>
+
+      <p>But in recent years, the river became sick. Oil leaks from passing ships, combined with illegal dumping and toxic waste from oil companies, have slowly poisoned the water. Fish began to disappear, and the once-thriving ecosystem began to crumble. Ebiere's fishing business, which had supported her family for decades, began to wither.</p>
+
+      <p>"I had no choice but to turn to selling at the market," she explains, her weathered hands gripping the edge of her chair. "But the prices are low, and the days are hard. The river used to give us all we needed. Now, I barely have enough to get by."</p>
+
+      <p>Ebiere's story is not unique. Many in her village have seen their livelihoods collapse due to the irresponsible actions of the shipping industry. Oil spills, illegal dumping, and unchecked shipping practices have left the river and the land toxic. Once a thriving community of fishermen and farmers, the area is now struggling to survive, with many families forced to abandon their homes in search of new work.</p>
+
+      <p>"We feel forgotten," Ebiere says, looking out over the polluted waters that once sustained her family. "The oil companies continue to pollute, and nothing is done. We keep asking for help, but they don't listen. We're just here, waiting for something to change."</p>
+
+      <p>For years, the shipping industry has taken a heavy toll on the Niger Delta, driven by a relentless pursuit of profit at the expense of the environment and local communities. Oil tankers, cargo ships, and other vessels routinely spill oil into the waters, often bypassing regulations meant to protect vulnerable ecosystems. This pollution has led to fish die-offs, the destruction of vital wetlands, and severe soil contamination, which in turn harms the people who depend on the river for food, income, and culture.</p>
+
+      <p>"The river used to give us everything. Now we are left with empty nets," Ebiere says, a quiet resolve in her voice.</p>
+
+      <p>But despite the overwhelming challenges, Ebiere's fight isn't just about survival. It's about justice. She is part of a growing movement of women and communities in the Niger Delta demanding accountability from the shipping and oil industries. Ebiere and others like her are no longer waiting for international organizations or governments to step in—they are standing up and demanding that those responsible for the pollution clean up the mess they've created.</p>
+
+      <p>"We won't stay silent anymore," Ebiere declares. "This is our home, our land, and our river. If the companies won't stop polluting, we'll make them listen. We will fight for our future, for our children, and for the river."</p>
+
+      <p>Her story is a stark reminder that irresponsible shipping activities have far-reaching consequences for real people. Ebiere's plight calls out to the shipping industry: it's time to do better. To be more responsible. To hold yourselves accountable for the destruction you've caused.</p>
+
+      <p>The shipping industry holds the power to change the future of communities like Ebiere's. The question is, will they? Or will they continue to pollute, devastate, and profit at the expense of the world's most vulnerable?</p>
+
+      <p>Ebiere and countless others like her deserve more than just promises. They deserve action. It's time for the shipping industry to rise to the challenge, to go beyond compliance, and to restore what has been lost. For Ebiere, her family, and her community, it's no longer just about fishing and farming—it's about fighting for the future.</p>
     `,
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/assets/insight-ebiere-brytaseas.png",
   },
   {
     id: "3",
-    title: "Effective Carbon Reporting Strategies For Shipowners",
-    slug: "carbon-reporting-strategies",
-    category: "Carbon Management",
+    title: "Why Shipping Companies Need to Go Beyond Compliance: Embrace Responsibility for a Greener Future",
+    slug: "beyond-compliance-greener-future",
+    category: "Sustainability",
     date: "2025-02-10",
-    author: "Sarah Martinez",
-    excerpt: "Best practices for tracking and reporting your fleet's carbon emissions.",
+    author: "Rita Abiodun",
+    excerpt: "A compelling call for shipping companies to exceed basic compliance and lead the way in environmental responsibility and innovation.",
     content: `
-      <h2>The Evolving Landscape of Maritime Carbon Reporting</h2>
-      <p>Carbon reporting has become a critical aspect of maritime operations, driven by regulatory requirements, market pressures, and the industry's commitment to reducing its environmental impact. Effective carbon reporting is no longer optional—it's essential for compliance, stakeholder relations, and strategic decision-making.</p>
-      
-      <h2>Key Carbon Reporting Frameworks for Maritime</h2>
-      <p>Shipowners must navigate several reporting frameworks:</p>
-      <ul>
-        <li><strong>IMO Data Collection System (DCS):</strong> Mandatory global system for collecting and reporting fuel consumption data from ships.</li>
-        <li><strong>EU Monitoring, Reporting and Verification (MRV):</strong> Requires ships calling at EU ports to monitor and report CO2 emissions and other relevant information.</li>
-        <li><strong>Sea Cargo Charter:</strong> Framework for assessing and disclosing the climate alignment of ship chartering activities.</li>
-        <li><strong>Poseidon Principles:</strong> Framework for financial institutions to assess and disclose the climate alignment of their shipping portfolios.</li>
-        <li><strong>Carbon Disclosure Project (CDP):</strong> Global disclosure system for environmental reporting used by many stakeholders.</li>
-      </ul>
-      
-      <h2>Best Practices for Effective Carbon Reporting</h2>
-      <p>To develop robust carbon reporting processes, consider these best practices:</p>
-      <ol>
-        <li><strong>Implement Automated Data Collection:</strong> Utilize digital solutions to streamline the collection of fuel consumption and operational data.</li>
-        <li><strong>Ensure Data Quality:</strong> Establish verification processes to maintain the accuracy and reliability of emissions data.</li>
-        <li><strong>Standardize Calculation Methodologies:</strong> Apply consistent methodologies aligned with recognized frameworks.</li>
-        <li><strong>Integrate with Business Systems:</strong> Connect carbon reporting with existing business intelligence and management systems.</li>
-        <li><strong>Provide Context and Analysis:</strong> Go beyond raw data to include analysis, trends, and progress against targets.</li>
-      </ol>
-      
-      <h2>Leveraging Carbon Data for Business Advantage</h2>
-      <p>Effective carbon reporting provides opportunities beyond compliance:</p>
-      <ul>
-        <li>Identifying operational inefficiencies and cost-saving opportunities</li>
-        <li>Informing fleet renewal and retrofit decisions</li>
-        <li>Supporting access to green financing and sustainability-linked loans</li>
-        <li>Strengthening relationships with environmentally conscious charterers and customers</li>
-        <li>Preparing for carbon pricing and market-based measures</li>
-      </ul>
-      
-      <h2>Conclusion</h2>
-      <p>As the maritime industry continues its decarbonization journey, effective carbon reporting will be increasingly important. By implementing robust reporting strategies now, shipowners can not only meet compliance requirements but also gain valuable insights that drive business performance and environmental improvement.</p>
+      <p>Let's be real for a moment: The days of doing the bare minimum in shipping are over. Compliance with regulations is important, but is it enough? The world is changing fast, and the maritime industry is being called upon to lead the way in sustainability—not just meet basic standards, but actively improve. The question is: Are shipping companies ready to embrace that challenge?</p>
+
+      <p>Let's take a closer look.</p>
+
+      <h2>Isn't It Time to Set a New Standard?</h2>
+      <p>Too many shipping companies still see compliance as the finish line. But let's be honest: if you're just meeting regulations, you're playing catch-up. The world is asking for more—and you can't afford to be left behind. Why settle for the minimum when you can be the one pushing the boundaries, setting a new standard for what responsible shipping looks like?</p>
+
+      <p>By going beyond the basics, shipping companies can demonstrate a commitment not just to the environment but to safety, quality, and long-term sustainability. This isn't just a feel-good approach; it's a smart business decision. The companies that lead the charge in environmental responsibility will be the ones setting the pace, reaping the rewards of early innovation, and ultimately gaining the trust of clients and partners who are prioritizing sustainability more than ever.</p>
+
+      <p>The Green Award Foundation is one of the ways companies can show they are serious about going above and beyond. It's a voluntary certification that recognizes ships excelling in safety, quality, and environmental performance. But it's not just about getting a stamp of approval; it's about setting a new bar for what the maritime industry can achieve. Green Award certification encourages vessels to exceed compliance standards and take proactive steps in reducing emissions, improving energy efficiency, and adopting innovative technologies.</p>
+
+      <h2>Innovation Is the Key to Future Success</h2>
+      <p>It's no secret: innovation is the future of shipping. But too often, innovation is seen as optional or something that's nice to have. The reality is, innovation is a necessity if shipping is going to be part of the solution to the world's sustainability challenges. From wind-assisted propulsion to dual-fuel technology, there's a whole new world of possibilities for ships that want to reduce their environmental footprint.</p>
+
+      <p>Think about it: what would it take for your company to adopt these cutting-edge technologies? To rethink fuel efficiency, reduce emissions, and enhance overall operational performance? Pushing for new standards in shipping isn't just about meeting the baseline—it's about creating a future where sustainable shipping practices are the norm, not the exception.</p>
+
+      <p>Green Award's recognition of vessels like the Chemical Challenger, which earned a GHG label for CO₂ reduction through wind-assisted propulsion, is a perfect example. It's not just about meeting industry standards; it's about leading the way with innovation. What's stopping you from being the next company to adopt these game-changing technologies?</p>
+
+      <h2>The Pressure to Lead Is Real—And It's Growing</h2>
+      <p>As the maritime industry faces increasing scrutiny from governments, investors, and the public, there's no longer room for complacency. Companies that fail to step up to the challenge risk falling behind, both in reputation and profitability. The shipping industry has a significant impact on the environment, and that impact is under intense pressure to change.</p>
+
+      <p>Think about the stakeholders who are demanding more. Consumers are becoming increasingly aware of the environmental impacts of shipping. Investors are pushing for companies to adopt stronger sustainability practices. Regulators are tightening their grip on emissions and environmental standards. So, why not get ahead of these shifts and start leading the way?</p>
+
+      <p>The companies that take responsibility now, that strive to go beyond the minimum standards, will be the ones that win in the long run. And the best part? This doesn't just benefit the planet—it benefits your bottom line too. Responsible practices can open up new markets, secure better contracts, and build stronger relationships with customers and investors alike.</p>
+
+      <h2>A Culture of Responsibility: Beyond Compliance</h2>
+      <p>This shift isn't just about meeting regulations; it's about fostering a culture of responsibility within your company. A responsible shipping company doesn't just check off boxes—it builds sustainability into every facet of its operations. It's about being proactive, not reactive. It's about creating a company culture where environmental stewardship is a shared responsibility, from the top down.</p>
+
+      <p>So, how do you make this shift? Start by embracing more rigorous standards. Invest in technologies and practices that reduce your environmental footprint, improve fuel efficiency, and cut emissions. Encourage your team to think creatively about sustainability and get involved in industry discussions about best practices. Most importantly, align your business model with the values that are now expected of responsible companies—environmental responsibility, social equity, and governance.</p>
+
+      <h2>Why Wait for the Future When You Can Lead It?</h2>
+      <p>The future of shipping is green, and those who embrace that future now will be the ones who thrive. By going beyond compliance, you can become part of a global movement that's reshaping how the industry operates. Responsible shipping is not just about avoiding penalties—it's about being a leader, about taking ownership of the impact your company has on the environment, and about setting a higher standard for everyone else to follow.</p>
+
+      <p>If you're ready to take your company's sustainability to the next level, don't wait. The world is changing, and the time to lead is now. It's time to embrace innovation, push past the minimum requirements, and be part of a future where the shipping industry isn't just about moving goods—it's about moving toward a better, greener world.</p>
+
+      <p>So, are you ready to go beyond compliance? Are you ready to set the standard? The future of shipping is in your hands.</p>
     `,
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/assets/insight-greener-future-brytaseas.png",
   },
 ]
 
