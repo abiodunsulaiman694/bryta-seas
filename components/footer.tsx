@@ -36,7 +36,7 @@ export default function Footer() {
             <h3 className="text-lg font-bold">Contact</h3>
             <address className="mt-2 not-italic text-sm text-gray-600">
               <p className="mt-2">
-                <a href="mailto:info@brytaseas.com" className="hover:text-[#0077B6]">
+                <a href="mailto:rita@brytaseas.com" className="hover:text-[#0077B6]">
                   rita@brytaseas.com
                 </a>
               </p>
