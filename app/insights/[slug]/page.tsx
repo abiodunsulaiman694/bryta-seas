@@ -40,13 +40,13 @@ export default function InsightPage({ params }: { params: { slug: string } }) {
       {/* Hero Section */}
       <section className="bg-white py-16 md:py-24">
         <div className="container">
-          <Link href="/insights" className="inline-flex items-center text-teal-700 hover:text-teal-800 mb-6">
+          <Link href="/insights" className="inline-flex items-center text-[#0077B6] hover:text-[#0077B6]/90 mb-6">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Insights
           </Link>
           <div className="mx-auto max-w-3xl">
             <div className="mb-6 flex items-center gap-3">
-              <span className="rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
+              <span className="rounded-full bg-[#0077B6]/10 px-3 py-1 text-sm font-medium text-[#0077B6]">
                 {insight.category}
               </span>
               <span className="text-sm text-gray-500">
@@ -117,12 +117,12 @@ export default function InsightPage({ params }: { params: { slug: string } }) {
                 </div>
                 <div className="p-6">
                   <Link href={`/insights/${relatedInsight.slug}`}>
-                    <h3 className="text-xl font-bold hover:text-teal-700 transition-colors">{relatedInsight.title}</h3>
+                    <h3 className="text-xl font-bold hover:text-[#0077B6] transition-colors">{relatedInsight.title}</h3>
                   </Link>
                   <p className="mt-2 text-gray-600">{relatedInsight.excerpt}</p>
                   <Link
                     href={`/insights/${relatedInsight.slug}`}
-                    className="mt-4 inline-block text-sm font-medium text-teal-700 hover:underline"
+                    className="mt-4 inline-block text-sm font-medium text-[#0077B6] hover:underline"
                   >
                     Read more →
                   </Link>
@@ -142,7 +142,7 @@ export default function InsightPage({ params }: { params: { slug: string } }) {
             compliance and ESG reputation.
           </p>
           <Link href="/contact">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+            <Button size="lg" className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">
               Contact Us
             </Button>
           </Link>

@@ -29,7 +29,7 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative h-[600px] md:h-[700px] overflow-hidden">
-        <div className="absolute inset-0 bg-teal-900/70 z-10"></div>
+        <div className="absolute inset-0 bg-[#0077B6]/70 z-10"></div>
         <video
           autoPlay
           loop
@@ -45,7 +45,7 @@ export default function Home() {
             SHAPING THE FUTURE OF SUSTAINABLE SHIPPING
           </h1>
           <p className="mt-4 max-w-2xl text-xl md:text-2xl">Compliance. Reputation. Sustainability.</p>
-          <Button className="mt-8 bg-green-600 hover:bg-green-700 text-white">
+          <Button className="mt-8 bg-[#44841A] hover:bg-[#44841A]/90 text-white">
             <Link href="/contact">LET&apos;S TALK</Link>
           </Button>
         </div>
@@ -76,10 +76,10 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {services.slice(0, 6).map((service) => (
               <div key={service.id} className="flex flex-col items-center text-center">
-                <div className="mb-4 rounded-full bg-green-100 p-3">{getIcon(service.icon)}</div>
+                <div className="mb-4 rounded-full bg-[#0077B6]/10 p-3">{getIcon(service.icon)}</div>
                 <h3 className="text-xl font-bold">{service.title}</h3>
                 <p className="mt-2 text-gray-600">{service.shortDescription}</p>
-                <Link href={`/services/${service.slug}`} className="mt-4 text-teal-700 hover:underline">
+                <Link href={`/services/${service.slug}`} className="mt-4 text-[#0077B6] hover:underline">
                   Learn more
                 </Link>
               </div>
@@ -87,7 +87,7 @@ export default function Home() {
           </div>
           <div className="mt-12 text-center">
             <Link href="/services">
-              <Button>View All Services</Button>
+              <Button className="bg-[#0077B6] hover:bg-[#0077B6]/90 text-white">View All Services</Button>
             </Link>
           </div>
         </div>
@@ -114,12 +114,12 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <Link href={`/insights/${insight.slug}`}>
-                    <h3 className="text-xl font-bold hover:text-teal-700 transition-colors">{insight.title}</h3>
+                    <h3 className="text-xl font-bold hover:text-[#0077B6] transition-colors">{insight.title}</h3>
                   </Link>
-                  <p className="mt-2 text-gray-600">{insight.excerpt}</p>
+                  <p className="mt-6 text-gray-600">{insight.excerpt}</p>
                   <Link
                     href={`/insights/${insight.slug}`}
-                    className="mt-4 inline-block text-sm font-medium text-teal-700 hover:underline"
+                    className="mt-6 inline-block text-sm font-medium text-[#0077B6] hover:underline"
                   >
                     Read more →
                   </Link>
@@ -129,21 +129,21 @@ export default function Home() {
           </div>
           <div className="mt-12 text-center">
             <Link href="/insights">
-              <Button>View All Insights</Button>
+              <Button className="bg-[#0077B6] hover:bg-[#0077B6]/90 text-white">View All Insights</Button>
             </Link>
           </div>
         </div>
       </section>
 
       {/* Contact CTA */}
-      <section id="contact" className="bg-teal-800 py-16 md:py-24 text-white">
+      <section id="contact" className="bg-[#0077B6] py-16 md:py-24 text-white">
         <div className="container text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">Ready to chart your green course?</h2>
-          <p className="mx-auto max-w-2xl text-lg text-teal-100 mb-8">
+          <p className="mx-auto max-w-2xl text-lg text-blue-100 mb-8">
             Let our experts help you navigate the complexities of maritime sustainability.
           </p>
           <Link href="/contact">
-            <Button className="bg-green-600 hover:bg-green-700 text-white">Schedule a Consultation</Button>
+            <Button className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">Schedule a Consultation</Button>
           </Link>
         </div>
       </section>

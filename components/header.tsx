@@ -13,25 +13,25 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-sm">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Anchor className="h-6 w-6 text-teal-700" />
-          <span className="text-xl font-bold uppercase tracking-wider text-teal-800">
+          <Anchor className="h-6 w-6 text-[#0077B6]" />
+          <span className="text-xl font-bold uppercase tracking-wider text-[#0077B6]">
             Bryta Seas<span className="text-sm font-medium tracking-wide"></span>
           </span>
         </Link>
         <nav className="hidden md:flex gap-6">
-          <Link href="/" className="text-sm font-medium hover:text-teal-700">
+          <Link href="/" className="text-sm font-medium hover:text-[#0077B6]">
             Home
           </Link>
-          <Link href="/services" className="text-sm font-medium hover:text-teal-700">
+          <Link href="/services" className="text-sm font-medium hover:text-[#0077B6]">
             Services
           </Link>
-          <Link href="/insights" className="text-sm font-medium hover:text-teal-700">
+          <Link href="/insights" className="text-sm font-medium hover:text-[#0077B6]">
             Insights
           </Link>
-          <Link href="/about" className="text-sm font-medium hover:text-teal-700">
+          <Link href="/about" className="text-sm font-medium hover:text-[#0077B6]">
             About
           </Link>
-          <Link href="/contact" className="text-sm font-medium hover:text-teal-700">
+          <Link href="/contact" className="text-sm font-medium hover:text-[#0077B6]">
             Contact
           </Link>
         </nav>

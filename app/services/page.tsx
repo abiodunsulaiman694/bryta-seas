@@ -13,29 +13,29 @@ export default function ServicesPage() {
   const getIcon = (iconName: string) => {
     switch (iconName) {
       case "MessageSquare":
-        return <MessageSquare className="h-8 w-8 text-green-600" />
+        return <MessageSquare className="h-8 w-8 text-[#0077B6]" />
       case "BarChart3":
-        return <BarChart3 className="h-8 w-8 text-green-600" />
+        return <BarChart3 className="h-8 w-8 text-[#0077B6]" />
       case "FileText":
-        return <FileText className="h-8 w-8 text-green-600" />
+        return <FileText className="h-8 w-8 text-[#0077B6]" />
       case "Newspaper":
-        return <Newspaper className="h-8 w-8 text-green-600" />
+        return <Newspaper className="h-8 w-8 text-[#0077B6]" />
       case "Laptop":
-        return <Laptop className="h-8 w-8 text-green-600" />
+        return <Laptop className="h-8 w-8 text-[#0077B6]" />
       case "Globe":
-        return <Globe className="h-8 w-8 text-green-600" />
+        return <Globe className="h-8 w-8 text-[#0077B6]" />
       default:
-        return <MessageSquare className="h-8 w-8 text-green-600" />
+        return <MessageSquare className="h-8 w-8 text-[#0077B6]" />
     }
   }
 
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-teal-800 py-16 md:py-24 text-white">
+      <section className="bg-[#0077B6] py-16 md:py-24 text-white">
         <div className="container">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">Our Services</h1>
-          <p className="max-w-3xl text-xl text-teal-100">
+          <p className="max-w-3xl text-xl text-blue-100">
             Comprehensive solutions to help maritime companies navigate sustainability, compliance, and ESG reputation.
           </p>
         </div>
@@ -47,13 +47,13 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-16">
             {services.map((service) => (
               <div key={service.id} className="flex flex-col">
-                <div className="mb-4 rounded-full bg-green-100 p-3 w-fit">{getIcon(service.icon)}</div>
+                <div className="mb-4 rounded-full bg-[#0077B6]/10 p-3 w-fit">{getIcon(service.icon)}</div>
                 <h2 className="text-2xl font-bold mb-3">{service.title}</h2>
                 <p className="text-gray-600 mb-4">{service.shortDescription}</p>
                 <p className="text-gray-700 mb-6">{service.fullDescription.substring(0, 150)}...</p>
                 <div className="mt-auto">
                   <Link href={`/services/${service.slug}`}>
-                    <Button>Learn More</Button>
+                    <Button className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">Learn More</Button>
                   </Link>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function ServicesPage() {
               <h2 className="text-3xl font-bold tracking-tight mb-6">Why Choose Bryta Seas</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
-                  <CheckSquare className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckSquare className="h-6 w-6 text-[#0077B6] mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-bold text-lg">Industry Expertise</h3>
                     <p className="text-gray-600">
@@ -79,7 +79,7 @@ export default function ServicesPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckSquare className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckSquare className="h-6 w-6 text-[#0077B6] mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-bold text-lg">Tailored Solutions</h3>
                     <p className="text-gray-600">
@@ -88,7 +88,7 @@ export default function ServicesPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckSquare className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckSquare className="h-6 w-6 text-[#0077B6] mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-bold text-lg">Proven Results</h3>
                     <p className="text-gray-600">
@@ -97,7 +97,7 @@ export default function ServicesPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckSquare className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckSquare className="h-6 w-6 text-[#0077B6] mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-bold text-lg">Forward-Thinking Approach</h3>
                     <p className="text-gray-600">
@@ -128,7 +128,7 @@ export default function ServicesPage() {
             Contact us today to discuss how we can help you navigate the green future of maritime.
           </p>
           <Link href="/contact">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+            <Button size="lg" className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">
               Schedule a Consultation
             </Button>
           </Link>

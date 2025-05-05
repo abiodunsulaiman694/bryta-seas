@@ -12,10 +12,10 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-teal-800 py-16 md:py-24 text-white">
+      <section className="bg-[#0077B6] py-16 md:py-24 text-white">
         <div className="container">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">Contact Us</h1>
-          <p className="max-w-3xl text-xl text-teal-100">
+          <p className="max-w-3xl text-xl text-blue-100">
             Get in touch with our team of maritime sustainability experts.
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function ContactPage() {
                   </label>
                   <Textarea id="message" name="message" rows={5} required />
                 </div>
-                <Button type="submit" className="bg-green-600 hover:bg-green-700 text-white">
+                <Button type="submit" className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">
                   Send Message
                 </Button>
               </form>
@@ -90,8 +90,8 @@ export default function ContactPage() {
               <h2 className="text-3xl font-bold mb-6">Contact Information</h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="rounded-full bg-green-100 p-3">
-                    <Mail className="h-6 w-6 text-green-600" />
+                  <div className="rounded-full bg-[#0077B6]/10 p-3">
+                    <Mail className="h-6 w-6 text-[#0077B6]" />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold">Email</h3>
@@ -99,8 +99,8 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="rounded-full bg-green-100 p-3">
-                    <Phone className="h-6 w-6 text-green-600" />
+                  <div className="rounded-full bg-[#0077B6]/10 p-3">
+                    <Phone className="h-6 w-6 text-[#0077B6]" />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold">Phone</h3>

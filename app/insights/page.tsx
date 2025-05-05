@@ -12,10 +12,10 @@ export default function InsightsPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-teal-800 py-16 md:py-24 text-white">
+      <section className="bg-[#0077B6] py-16 md:py-24 text-white">
         <div className="container">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">Insights</h1>
-          <p className="max-w-3xl text-xl text-teal-100">
+          <p className="max-w-3xl text-xl text-blue-100">
             Expert perspectives on maritime sustainability, compliance, and ESG reputation.
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function InsightsPage() {
                 </div>
                 <div className="p-6">
                   <div className="mb-3 flex items-center gap-2">
-                    <span className="rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-800">
+                    <span className="rounded-full bg-[#0077B6]/10 px-3 py-1 text-xs font-medium text-[#0077B6]">
                       {insight.category}
                     </span>
                     <span className="text-xs text-gray-500">
@@ -53,13 +53,13 @@ export default function InsightsPage() {
                     </span>
                   </div>
                   <Link href={`/insights/${insight.slug}`}>
-                    <h2 className="text-xl font-bold hover:text-teal-700 transition-colors">{insight.title}</h2>
+                    <h2 className="text-xl font-bold hover:text-[#0077B6] transition-colors">{insight.title}</h2>
                   </Link>
                   <p className="mt-2 text-gray-600">{insight.excerpt}</p>
                   <div className="mt-4 flex items-center justify-between">
                     <Link
                       href={`/insights/${insight.slug}`}
-                      className="text-sm font-medium text-teal-700 hover:underline"
+                      className="text-sm font-medium text-[#0077B6] hover:underline"
                     >
                       Read more →
                     </Link>
@@ -86,7 +86,7 @@ export default function InsightsPage() {
                 placeholder="Your email address"
                 className="w-full sm:w-auto flex-1 rounded-md border px-4 py-2"
               />
-              <Button className="bg-green-600 hover:bg-green-700 text-white">Subscribe</Button>
+              <Button className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">Subscribe</Button>
             </div>
             <p className="mt-3 text-sm text-gray-500">We respect your privacy. Unsubscribe at any time.</p>
           </div>
@@ -102,7 +102,7 @@ export default function InsightsPage() {
             compliance and ESG reputation.
           </p>
           <Link href="/contact">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+            <Button size="lg" className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">
               Contact Us
             </Button>
           </Link>

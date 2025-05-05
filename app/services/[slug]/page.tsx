@@ -36,36 +36,36 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   const getIcon = (iconName: string) => {
     switch (iconName) {
       case "MessageSquare":
-        return <MessageSquare className="h-12 w-12 text-green-600" />
+        return <MessageSquare className="h-12 w-12 text-[#0077B6]" />
       case "BarChart3":
-        return <BarChart3 className="h-12 w-12 text-green-600" />
+        return <BarChart3 className="h-12 w-12 text-[#0077B6]" />
       case "FileText":
-        return <FileText className="h-12 w-12 text-green-600" />
+        return <FileText className="h-12 w-12 text-[#0077B6]" />
       case "Newspaper":
-        return <Newspaper className="h-12 w-12 text-green-600" />
+        return <Newspaper className="h-12 w-12 text-[#0077B6]" />
       case "Laptop":
-        return <Laptop className="h-12 w-12 text-green-600" />
+        return <Laptop className="h-12 w-12 text-[#0077B6]" />
       case "Globe":
-        return <Globe className="h-12 w-12 text-green-600" />
+        return <Globe className="h-12 w-12 text-[#0077B6]" />
       default:
-        return <MessageSquare className="h-12 w-12 text-green-600" />
+        return <MessageSquare className="h-12 w-12 text-[#0077B6]" />
     }
   }
 
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-teal-800 py-16 md:py-24 text-white">
+      <section className="bg-[#0077B6] py-16 md:py-24 text-white">
         <div className="container">
-          <Link href="/services" className="inline-flex items-center text-teal-100 hover:text-white mb-6">
+          <Link href="/services" className="inline-flex items-center text-blue-100 hover:text-white mb-6">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Services
           </Link>
           <div className="flex flex-col md:flex-row md:items-center gap-6">
-            <div className="rounded-full bg-teal-700 p-4">{getIcon(service.icon)}</div>
+            <div className="rounded-full bg-[#0077B6]/80 p-4">{getIcon(service.icon)}</div>
             <div>
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">{service.title}</h1>
-              <p className="mt-4 max-w-3xl text-xl text-teal-100">{service.shortDescription}</p>
+              <p className="mt-4 max-w-3xl text-xl text-blue-100">{service.shortDescription}</p>
             </div>
           </div>
         </div>
@@ -83,21 +83,21 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               <ul className="space-y-3 mb-8">
                 {service.benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <MessageSquare className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                    <MessageSquare className="h-6 w-6 text-[#0077B6] mt-1 flex-shrink-0" />
                     <span className="text-gray-700">{benefit}</span>
                   </li>
                 ))}
               </ul>
 
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+                <Button size="lg" className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">
                   Request a Consultation
                 </Button>
               </Link>
             </div>
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/assets/why-brytaseas.png"
                 alt={service.title}
                 width={600}
                 height={500}
@@ -109,7 +109,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 <ol className="space-y-4">
                   {service.process.map((step, index) => (
                     <li key={index} className="flex items-start gap-3">
-                      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-green-600 text-white flex-shrink-0 mt-1">
+                      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#0077B6] text-white flex-shrink-0 mt-1">
                         {index + 1}
                       </div>
                       <div>
@@ -151,12 +151,12 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               .map((relatedService) => (
                 <div key={relatedService.id} className="flex flex-col border rounded-lg overflow-hidden">
                   <div className="p-6">
-                    <div className="mb-4 rounded-full bg-green-100 p-3 w-fit">{getIcon(relatedService.icon)}</div>
+                    <div className="mb-4 rounded-full bg-[#0077B6]/10 p-3 w-fit">{getIcon(relatedService.icon)}</div>
                     <h3 className="text-xl font-bold mb-2">{relatedService.title}</h3>
                     <p className="text-gray-600 mb-4">{relatedService.shortDescription}</p>
                     <div className="mt-auto">
                       <Link href={`/services/${relatedService.slug}`}>
-                        <Button variant="outline">Learn More</Button>
+                        <Button variant="outline" className="hover:bg-[#0077B6]/10 hover:text-[#0077B6]">Learn More</Button>
                       </Link>
                     </div>
                   </div>
@@ -167,14 +167,14 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
       </section>
 
       {/* CTA */}
-      <section className="bg-teal-800 py-16 md:py-24 text-white">
+      <section className="bg-[#0077B6] py-16 md:py-24 text-white">
         <div className="container text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">Ready to chart your green course?</h2>
-          <p className="mx-auto max-w-2xl text-lg text-teal-100 mb-8">
+          <p className="mx-auto max-w-2xl text-lg text-blue-100 mb-8">
             Let our experts help you navigate the complexities of maritime sustainability.
           </p>
           <Link href="/contact">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+            <Button size="lg" className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">
               Schedule a Consultation
             </Button>
           </Link>

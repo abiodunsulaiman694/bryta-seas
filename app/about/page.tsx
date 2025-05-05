@@ -12,10 +12,10 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-teal-800 py-16 md:py-24 text-white">
+      <section className="bg-[#0077B6] py-16 md:py-24 text-white">
         <div className="container">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">About Us</h1>
-          <p className="max-w-3xl text-xl text-teal-100">
+          <p className="max-w-3xl text-xl text-blue-100">
             At BrytaSeas, we believe that the future of shipping must be responsible, human-centered, and sustainable.
           </p>
         </div>
@@ -43,7 +43,7 @@ export default function AboutPage() {
                 🌊 To connect stories and solutions — showing that every small step toward responsibility matters.
               </p>
               <p className="text-lg text-gray-700">
-                🧩 To bridge industry leadership and community impact — ensuring that shipping’s progress benefits both the economy and the environment.
+                🧩 To bridge industry leadership and community impact — ensuring that shipping's progress benefits both the economy and the environment.
               </p>
             </div>
             <div>
@@ -65,8 +65,8 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-12 text-center">Our Values</h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="mb-4 rounded-full bg-green-100 p-3 w-fit">
-                <CheckSquare className="h-6 w-6 text-green-600" />
+              <div className="mb-4 rounded-full bg-[#0077B6]/10 p-3 w-fit">
+                <CheckSquare className="h-6 w-6 text-[#0077B6]" />
               </div>
               <h3 className="text-xl font-bold mb-3">Integrity</h3>
               <p className="text-gray-600">
@@ -74,8 +74,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="mb-4 rounded-full bg-green-100 p-3 w-fit">
-                <CheckSquare className="h-6 w-6 text-green-600" />
+              <div className="mb-4 rounded-full bg-[#0077B6]/10 p-3 w-fit">
+                <CheckSquare className="h-6 w-6 text-[#0077B6]" />
               </div>
               <h3 className="text-xl font-bold mb-3">Impact</h3>
               <p className="text-gray-600">
@@ -83,8 +83,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="mb-4 rounded-full bg-green-100 p-3 w-fit">
-                <CheckSquare className="h-6 w-6 text-green-600" />
+              <div className="mb-4 rounded-full bg-[#0077B6]/10 p-3 w-fit">
+                <CheckSquare className="h-6 w-6 text-[#0077B6]" />
               </div>
               <h3 className="text-xl font-bold mb-3">Innovation</h3>
               <p className="text-gray-600">
@@ -92,8 +92,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="mb-4 rounded-full bg-green-100 p-3 w-fit">
-                <CheckSquare className="h-6 w-6 text-green-600" />
+              <div className="mb-4 rounded-full bg-[#0077B6]/10 p-3 w-fit">
+                <CheckSquare className="h-6 w-6 text-[#0077B6]" />
               </div>
               <h3 className="text-xl font-bold mb-3">Inclusion</h3>
               <p className="text-gray-600">
@@ -101,8 +101,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="mb-4 rounded-full bg-green-100 p-3 w-fit">
-                <CheckSquare className="h-6 w-6 text-green-600" />
+              <div className="mb-4 rounded-full bg-[#0077B6]/10 p-3 w-fit">
+                <CheckSquare className="h-6 w-6 text-[#0077B6]" />
               </div>
               <h3 className="text-xl font-bold mb-3">Stewardship</h3>
               <p className="text-gray-600">
@@ -133,7 +133,7 @@ export default function AboutPage() {
               </p>
               <p className="text-lg text-gray-700 mb-4">
                 Born from a deep respect for the sea and the communities it touches, BrytaSeas exists to celebrate the companies, innovators, and individuals leading the charge toward a more sustainable maritime industry.
-The global shipping sector carries more than 80% of the world’s trade—but it also carries immense responsibility.
+The global shipping sector carries more than 80% of the world's trade—but it also carries immense responsibility.
               </p>
               <p className="text-lg text-gray-700 mb-4">
               We use the power of media, storytelling, and strategic communications to amplify responsible practices, spotlight real stories from the sea, and advocate for higher standards that protect our people and our planet.
@@ -156,8 +156,8 @@ We celebrate sustainability champions, advocate for stronger responsibility stan
             help your organization.
           </p>
           <Link href="/contact">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
-              Join us. Let’s tell your story and inspire a movement.
+            <Button size="lg" className="bg-[#44841A] hover:bg-[#44841A]/90 text-white">
+              Join us. Let's tell your story and inspire a movement.
             </Button>
           </Link>
         </div>
