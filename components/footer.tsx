@@ -37,7 +37,7 @@ export default function Footer() {
             <address className="mt-2 not-italic text-sm text-gray-600">
               <p className="mt-2">
                 <a href="mailto:info@brytaseas.com" className="hover:text-[#0077B6]">
-                  info@brytaseas.com
+                  rita@brytaseas.com
                 </a>
               </p>
               <p>

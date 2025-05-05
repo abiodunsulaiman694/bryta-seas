@@ -95,7 +95,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold">Email</h3>
-                    <p className="text-gray-600">info@brytaseas.com</p>
+                    <p className="text-gray-600">rita@brytaseas.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
